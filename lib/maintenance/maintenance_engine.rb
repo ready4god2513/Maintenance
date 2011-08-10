@@ -14,6 +14,11 @@ module Maintenance
   
   
   class IpRestrictor
+    
+    def initialize(ip_addresses = {})
+      @ip_addresses = ip_addresses
+    end
+    
     def self.matches?(request)
       request.ip =~ /127.0.0.1/
     end
