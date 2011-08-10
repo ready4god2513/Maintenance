@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["ready4god2513"]
   s.email       = ["brandonh@ibethel.org"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Maintenance Mode Simplified with Capistrano}
+  s.description = %q{Use this gem, capistrano, and a few config settings in apache/nginx for easy maintenance mode}
 
   s.rubyforge_project = "maintenance"
 
@@ -17,8 +17,6 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  
+  s.add_development_dependency "capistrano"
 end
