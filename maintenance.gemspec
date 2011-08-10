@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Maintenance::VERSION
   s.authors     = ["ready4god2513"]
   s.email       = ["brandonh@ibethel.org"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/ready4god2513/Maintenance"
   s.summary     = %q{Maintenance Mode Simplified with Capistrano}
   s.description = %q{Use this gem, capistrano, and a few config settings in apache/nginx for easy maintenance mode}
 
